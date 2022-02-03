@@ -1,0 +1,10 @@
+.contentWrapper {
+  padding-top: 120px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.error {
+  margin: 0 auto;
+}
