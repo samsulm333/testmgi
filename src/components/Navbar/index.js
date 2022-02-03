@@ -20,7 +20,7 @@ const NavbarComponent = ({ setSearch }) => {
       alert("Please enter the name of image you want to search for!!");
     } else {
       setSearch(searchInput);
-      navigate(`/search`);
+      navigate(`/search?q=${searchInput}`);
       setSearchInput("");
     }
   };
